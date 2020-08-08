@@ -10,7 +10,10 @@ function format_figure(figure_handle,height)
 
     figure_handle.Units = 'centimeters'; 
      
-    figure_handle.Position(3) = 10; %  
+    figure_handle.Position(3) = 10; % 
+    
+    figure_handle.Position(1) = 0;  % Move the formatted figure to the left conor of the screen
+    figure_handle.Position(2) = 0;
 
     % Number of children of a figure
     number_of_children  = length(figure_handle.Children);
