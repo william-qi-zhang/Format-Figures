@@ -25,8 +25,8 @@ end
        end 
        
 % Create a folder for the figure
-if ~exist('..\figs', 'dir')
-    mkdir('..\figs')
+if ~exist('.\figs', 'dir')
+    mkdir('.\figs')
 end
 
 % Export as PDF
