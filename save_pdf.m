@@ -31,7 +31,7 @@ end
 
 % Export as PDF
 % Exportgraphics is for matlab version 2020+ only
-filepath = '..\figs\';
+filepath = '.\figs\';
 
 exportgraphics(figure_handle,[filepath file_name '.pdf'],'BackgroundColor','none','ContentType','vector')
 
