@@ -45,16 +45,16 @@ function format_figure(figure_handle,height)
                % XY label
                figure_handle.Children(p).XLabel.FontName = 'Times New Roman';
                figure_handle.Children(p).XLabel.FontSize = 8;
-               figure_handle.Children(p).XLabel.Interpreter = 'latex';
+               figure_handle.Children(p).XLabel.Interpreter = 'tex';
                figure_handle.Children(p).XLabel.Units = 'data'; 
                figure_handle.Children(p).YLabel.FontName = 'Times New Roman';
                figure_handle.Children(p).YLabel.FontSize = 8;       
-               figure_handle.Children(p).YLabel.Interpreter = 'latex';
+               figure_handle.Children(p).YLabel.Interpreter = 'tex';
                figure_handle.Children(p).XLabel.Units = 'data'; 
                % Title
                figure_handle.Children(p).Title.FontName = 'Times New Roman';
                figure_handle.Children(p).Title.FontSize = 8;       
-               figure_handle.Children(p).Title.Interpreter = 'latex';
+               figure_handle.Children(p).Title.Interpreter = 'tex';
                % unit?
                % Linewidth of the box
                figure_handle.Children(p).LineWidth = 0.5; 
@@ -85,7 +85,7 @@ function format_figure(figure_handle,height)
                figure_handle.Children(p).FontName = 'Times New Roman';
                figure_handle.Children(p).FontSize = 8;
                figure_handle.Children(p).Units = 'centimeters';
-               figure_handle.Children(p).Interpreter = 'latex';
+               figure_handle.Children(p).Interpreter = 'tex';
                figure_handle.Children(p).Location = 'eastoutside';
                figure_handle.Children(p).Box = 'off';
                figure_handle.Children(p).ItemTokenSize = [10 1];
